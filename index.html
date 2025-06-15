@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MyPortfolio</title> <!-- tittle page nako  -->
+   <link href="style.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+<header role="banner">
+    <div class="logo" aria-label="Portfolio Logo" tabindex="0">PYPONCO</div>  <!-- logo sa page nako -->
+   
+    <nav id="primary-navigation" role="navigation">  <!-- navigation bar sa akong page  -->
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>  <!-- link sa section sa page  -->
+        <li><a href="#about">About Me</a></li> 
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Home Section -->
+  <section id="home">
+    <div class="home-container">
+      <div class="home-text">
+        <h1>WELCOME!</h1> <!-- header sa akong home page  -->
+        <p> I'm Sheila Mae Pyponco, a passionate web developer and designer crafting beautiful, user-friendly websites. Welcome to my portfolio! Explore my projects, skills, and get in touch with me.</p> <!-- brief description sa page nako  -->
+      </div>
+      <div class="home-image"> <!-- image sa akong home page -->
+        <img src="Sheila.jpg" alt="Portrait of Sheila." />
+          
+        </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" tabindex="-1" aria-label="About Me Section"> <
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="bio">
+        Hi, I'm Shiela mae Pyponco! I'm a dedicated web developer with experience in frontend and backend technologies. I enjoy turning ideas into functional and visually appealing web applications.
+      </p>
+
+      <h3>Education</h3>
+      <ul>
+        <li>Diploma in Information Technology, Asian College Dumaguete City</li>
+      </ul>
+
+      <h3>Career Goals</h3>
+      <p>
+        I aim to grow as a full-stack developer and contribute to innovative projects that improve user experiences and solve real-world challenges.
+      </p>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" tabindex="-1" aria-label="Projects Portfolio Section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-list" aria-live="polite">
+        <article class="project" tabindex="0" aria-label="Project: Responsive Portfolio Website">
+          <h3>Responsive Portfolio Website</h3>
+          <p>A fully responsive portfolio website showcasing projects and skills, built with React and CSS Grid layout.</p>
+          <p class="tech-stack">Technologies: React, CSS Grid, JavaScript</p>
+          <div class="links">
+            <a href="https://demo-portfolio.example.com" target="_blank" rel="noopener">Live Demo</a>
+            <a href="https://github.com/yourusername/portfolio" target="_blank" rel="noopener">Source Code</a>
+          </div>
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/592b4910-eca1-4113-b3d7-7c75a54f571b.png" alt="Screenshot of Responsive Portfolio Website showing homepage layout with hero and project cards" />
+        </article>
+        <article class="project" tabindex="0" aria-label="Project: IT Support Ticket System">
+          <h3>IT Support Ticket System</h3>
+          <p>A web application for managing IT support tickets with multi-user roles and real-time notifications.</p>
+          <p class="tech-stack">Technologies: Node.js, Express, Socket.io, MongoDB</p>
+          <div class="links">
+            <a href="https://it-support-demo.example.com" target="_blank" rel="noopener">Live Demo</a>
+            <a href="https://github.com/yourusername/itsupport" target="_blank" rel="noopener">Source Code</a>
+          </div>
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e03ce695-19ff-4a43-91a4-ca02143e93b8.png" alt="Screenshot of IT Support Ticket System showing ticket list and dashboard" />
+        </article>
+        <article class="project" tabindex="0" aria-label="Project: Network Configuration Automation">
+          <h3>Network Configuration Automation</h3>
+          <p>A Python script automates Cisco router and switch configurations to reduce manual errors and speed deployment.</p>
+          <p class="tech-stack">Technologies: Python, Cisco IOS, Ansible</p>
+          <div class="links">
+            <a href="https://github.com/yourusername/network-config" target="_blank" rel="noopener">Source Code</a>
+          </div>
+          <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0f8f3e32-8884-46f7-820b-742be6efecf2.png" alt="Screenshot of a terminal running network automation script" />
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" tabindex="-1" aria-label="Skills and Technologies Section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid" role="list">
+        <div class="skill-category" role="listitem" aria-label="Programming Languages">
+          <h3>Programming Languages</h3>
+          <ul class="skill-list">
+            <li>
+              <div class="skill-label" aria-label="Skill HTML, 90 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">code</span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:90%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill CSS, 90 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">palette</span>CSS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:90%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill JavaScript, 85 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">smart_toy</span>JavaScript</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:85%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill Python, 75 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">memory</span>Python</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:75%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category" role="listitem" aria-label="Tools and Frameworks">
+          <h3>Tools & Frameworks</h3>
+          <ul class="skill-list">
+            <li>
+              <div class="skill-label" aria-label="Skill React, 80 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">developer_mode</span>React</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:80%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill Node.js, 75 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">storage</span>Node.js</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:75%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill MySQL, 70 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">dns</span>MySQL</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:70%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill Git, 85 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">sync</span>Git</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:85%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skill-category" role="listitem" aria-label="Systems and Platforms">
+          <h3>Systems & Platforms</h3>
+          <ul class="skill-list">
+            <li>
+              <div class="skill-label" aria-label="Skill Windows Server, 80 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">dns</span>Windows Server</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:80%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill Linux, 75 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">terminal</span>Linux</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:75%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill Cisco, 60 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">settings_ethernet</span>Cisco</span>
+                <span>60%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:60%"></div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-label" aria-label="Skill AWS, 50 percent proficiency">
+                <span><span class="material-symbols-outlined skill-icon" aria-hidden="true">cloud</span>AWS</span>
+                <span>50%</span>
+              </div>
+              <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="skill-fill" style="width:50%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" aria-label="Resume and CV section">
+    <h2>Resume</h2>
+    <p>Download my latest resume as a PDF.</p> 
+    <a href="PyponcoResume.pdf" download="Pyponco_Resume.pdf" target="_blank" rel="noopener noreferrer"
+      aria-label="Download Resume PDF">Download Resume</a> 
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" tabindex="-1" aria-label="Certifications and Awards Section">  <!--aria-label para sa  screen reader-->
+    <div class="container">
+      <h2>Certifications & Awards</h2>
+      <div class="certification-list">
+        <article class="certification" tabindex="0" aria-label="Certification: Event Management NCIII">
+          <img src="NCIII.jpg" alt="Event Management NCIII certificate badge"/>
+          <h3>Event Management NCIII</h3>
+          <p class="date">Completed: July 22, 2024</p>
+          <p>Completed a Event Management NCIII.</p>
+        </article>
+        <article class="certification" tabindex="0" aria-label="Certification: With Honor in 1st Semester 2023-2024">
+          <img src="1stSemCert.jpg" alt="With Honor certificate badge" />
+          <h3>With Honor</h3>
+          <p class="date">April 30 2025</p>
+          <p>Awarded With Honor for the 2023-2024, 1st Semester..</p>
+        </article>
+        <article class="certification" tabindex="0" aria-label=" With Honor in 2st Semester 2023-2024">
+          <img src="2ndSemCert.jpg" alt="With Honor certificate badge" />
+          <h3>With Honor</h3>
+          <p class="date">April 30 2025</p>
+          <p>Recognized with honors during the 2023-2024, 2nd Semester..</p>
+        </article>
+        <article class="certification" tabindex="0" aria-label=" With Honor in Senior High School 2021-2022">
+          <img src="11cert.jpg" alt="With Honor certificate badge" />
+          <h3>With Honor</h3>
+          <p class="date">June 28 2022</p>
+          <p>Recognized With honors during the 2021-2022</p>
+        </article>
+        <article class="certification" tabindex="0" aria-label="Responsive Web Design Certificate">
+          <img src="ResponsiveWebCert.jpg" alt="Responsive Web Design Certificate badge" />
+          <h3>Responsive Web Design</h3>
+          <p class="date">Completed: April 5 2025</p>
+          <p><p>Completed the Responsive Web Design certification.</p>
+</p>
+        </article>
+        <article class="certification" tabindex="0" aria-label="Front End Development Libraries Certificate">
+                  <img src="frontEndCert.jpg" alt="Front End Development Certificate badge" />
+                  <h3>Front End Development Libraries</h3>
+                  <p class="date">Completed: June 2 2025</p>
+                  <p><p>Completed the Front End Development certificate.</p>
+        </p>
+                </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" tabindex="-1" aria-label="Blog and Articles Section">
+    <div class="container">
+      <h2>Blog</h2>
+      <div class="blog-list" aria-live="polite">
+        <article class="blog-post" tabindex="0" aria-label="Blog post: Introduction to React Hooks">
+          <h3>Introduction to React Hooks</h3>
+          <p>Understanding the power of React hooks and how they simplify functional component state management.</p>
+          <a href="#" aria-label="Read more about Introduction to React Hooks">Read more →</a>
+        </article>
+        <article class="blog-post" tabindex="0" aria-label="Blog post: Networking Essentials">
+          <h3>Networking Essentials</h3>
+          <p>A beginner's guide to networking concepts, protocols, and practical tips for IT professionals.</p>
+          <a href="#" aria-label="Read more about Networking Essentials">Read more →</a>
+        </article>
+        <article class="blog-post" tabindex="0" aria-label="Blog post: Boosting Web Performance">
+          <h3>Boosting Web Performance</h3>
+          <p>Tips and tricks to optimize your website speed and improve user experience.</p>
+          <a href="#" aria-label="Read more about Boosting Web Performance">Read more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" tabindex="-1" aria-label="Contact Section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form" aria-label="Contact form" novalidate>
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required aria-required="true" minlength="2" placeholder="Your full name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required aria-required="true" placeholder="name@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Write your message here..."></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <p class="success-message" role="alert" aria-live="assertive" style="display:none;">Message sent successfully!</p>
+      </form>
+      <div class="contact-info" style="margin-top: 32px;">
+        <p>Email: <a href="mailto:scpyponco.student@asiancollege,edu.ph">scpyponco.student@asiancollege,edu.ph</a></p>
+        <p>
+          LinkedIn: 
+          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a>
+        </p>
+        <p>
+          GitHub: 
+          <a href="https://github.com/scpyponco" target="_blank" rel="noopener">github.com/scpyponco</a>
+        </p>
+        <p>Location: Dumaguete City, Philippines</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="container">
+    <p>&copy; 2025 Shiela Mae Pyponco. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="social-links" aria-label="Social media links" role="region" style="margin-top: 12px;">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+        <span class="material-symbols-outlined">linkedin</span>
+      </a>
+      <a href="https://github.com/scpyponco" target="_blank" rel="noopener" aria-label="GitHub profile">
+        <span class="material-symbols-outlined">github</span>
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="scripts.js"></script> 
+</body>
+</html>
+
